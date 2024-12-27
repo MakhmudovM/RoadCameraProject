@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #163a35;
+    /* Фон футера теперь #10C298 */
+    color: white;
+    /* Текст белого цвета */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 1230px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer_nav .links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer_nav .links .link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_nav .links .link:hover {
+    color: #333;
+    /* Цвет при наведении - темный для контраста */
+}
+
+footer .right p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+}

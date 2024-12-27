@@ -1,6 +1,5 @@
 a{
   text-decoration: none;
-  
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   background-color: #121212;
   color: white;
 }
-.navbar {
+/* .navbar {
   width: 1270px;
   height: 10px;
   display: flex;
@@ -20,7 +19,7 @@ body {
   background-color: #163A35;
   border-radius: 20px;
   margin-top: 30px;
-}
+} */
 
 
 .logo{
@@ -38,12 +37,13 @@ body {
   font-size: 18px;
   color: #FFFFFF;
 }
-.elips{
+
+/* .elips{
   width: 45px;
   height: 45px;
   border-radius: 50%;
   background-color: #10C298;
-}
+} */
 .page {
   padding: 2rem;
 }
@@ -145,6 +145,7 @@ background-color: bisque;
 }
 
 /* Стили для футера с фоном #10C298 */
+
 .footer {
   display: flex;
   justify-content: space-between;
